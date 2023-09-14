@@ -453,16 +453,16 @@ const Sectionthree = () => {
       <div className="w-2/5 m-10 flex-wrap" >
         <h1 className="text-5xl" >A better way to hire designer</h1>
       </div>
-      <div className="flex m-4 gap-4" >
-        <div className="w-[33%]" >
+      <div className="flex m-10 gap-6" >
+        <div className="w-[30%]" >
           <h1 className="font-bold text-xl mb-4" >The #1 job board for design talent</h1>
           <p className="text-lg" >Get your job listings in front of millions of top-rated designers looking for their next role with an average of 1.1K targeted clicks per month.</p>
         </div>
-        <div className="w-[33%]" >
+        <div className="w-[30%]" >
           <h1 className="font-bold text-xl mb-4" >Seamless designer search filters</h1>
           <p className="text-lg" >No more sifting through piles of resumes. Our advanced search & filtering options make it easy to find the right designer in just a few clicks.</p>
           </div>
-        <div className="w-[33%]" >
+        <div className="w-[30%]" >
           <h1 className="font-bold text-xl mb-4" >Top-quality candidates </h1>
           <p className="text-lg" >Your brand deserves only the best. Engage with leading designers and save your favorite candidates for future projects – all in one place.</p>
         </div>
