@@ -1,29 +1,27 @@
-import './App.css';
-import Header from './Component/Header';
-import Footer from './Component/Footer';
-import Sectionone from './Component/Sectionone';
-import Sectiontwo from './Component/Sectiontwo';
-import Sectionthree from './Component/Sectionthree';
-import Sectionfour from './Component/Sectionfour';
+import "./App.css";
+import Main from "./Component/main/Main";
+import Sectionfive from "./Component/firstscreen/Sectionfive";
+
+import {Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <div>
-      <Header /> 
-
-      <Sectionone />
-
-      <Sectiontwo />
-
-      <Sectionthree />
-
-      <Sectionfour />
-
-      <Footer /> 
-
-    </div>
     
+      <>
+      <Routes>
 
+      
+
+      <Route path="/" element={<Main />} exact />
+      
+      <Route path="/firstscreen" element={<Sectionfive />} exact />
+
+
+      </Routes>
+      
+      </>
+   
   );
 }
 
