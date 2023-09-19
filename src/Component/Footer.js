@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div>
+        <div className="mt-16">
             
             <div className="flex justify-center gap-12 font-semibold text-lg m-4" >
         <div> 
@@ -62,7 +62,7 @@ const Footer = () => {
 
      </div>
 
-     <div className="flex text-gray-500 justify-around gap-20 text-lg font-medium" >
+     <div className="flex text-gray-500 justify-around gap-20 text-lg font-medium mb-10 mt-10" >
         <div>
             <ul className="flex gap-6">
                 <li>

@@ -32,11 +32,9 @@ const Header = () => {
               </li>
 
               <li>
-                <a href=""> For Designer</a>
+                <Link to="/secondscreen"> Inspiration </Link>
               </li>
-              <li>
-                <a href=""> Inspiration</a>
-              </li>
+
               <li>
                 <a href=""> Learn design</a>
               </li>
