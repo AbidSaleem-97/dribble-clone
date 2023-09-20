@@ -6,7 +6,7 @@ const Sectionsix= () => {
   return (
     <>
     <Header />
-
+ 
     <div className="flex items-center justify-center  flex-wrap mt-32">
         <h1 className="text-6xl text-center font-bold w-2/4">Discribe the world's top designers & creatives</h1>
     </div>
