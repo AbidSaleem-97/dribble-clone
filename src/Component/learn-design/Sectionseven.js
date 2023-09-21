@@ -72,124 +72,242 @@ const Sectionseven = () => {
         </div>
       </div>
 
-      <div className="bg-gray-200 p-6 m-8 rounded-3xl">
-        <div className="flex">
-          <div className="w-[100%] h-100">
-            <div
-              id="default-carousel"
-              className="relative "
-              data-carousel="slide"
-            >
-              <div className="relative overflow-hidden rounded-lg md:h-96">
-                <div className="w-100 h-100 duration-700 ease-in-out" data-carousel-item>
-                  <div className="block w-2/4">
-                    <img
-                      src="https://framerusercontent.com/images/rgRfIJIw3D0q81tkw8V3IziO260.png"
-                      alt="Your Image"
-                      className="rounded-3xl"
-                    />
-                  </div>
-                  <div className="block w-2/4">
-                    <img
-                      src="https://framerusercontent.com/images/rgRfIJIw3D0q81tkw8V3IziO260.png"
-                      alt="Your Image"
-                      className="rounded-3xl"
-                    />
-                  </div>
-                </div>
+      <div className="bg-gray-200 p-6 m-16 rounded-3xl">
+        <video
+          className="w-[98%] h-full object-cover object-center rounded-[50px] ml-2 p-6"
+          src="https://framerusercontent.com/modules/assets/AaIR8Z4oDnfJ0jsp2OToCoqXGcc~BODZEGAovv-7C0_P0TrNX12g7xrDyoHMGclkW5d5NlQ.mp4"
+          loop
+          autoPlay
+          muted
+          playsInline
+        />
+        <div className="flex gap-20 text-black">
+          <div className="w-2/4 p-6 ml-10">
+            <button className="m-4 bg-[#1c5eff1a] text-[#1C5EFF] rounded-3xl w-28 h-8">Sep 27, 2023</button>
+            <h1 className="text-6xl">Brand Identify & Logo design</h1>
+            <h1 className="mt-4 mb-4">with Hoodzpah</h1>
+            <p>
+              Join Amy & Jennifer Hood, founders of Hoodzpah, for an immersive
+              and inspiring workshop on the essentials of effective branding and
+              client engagement.
+            </p>
+            <p className="underline mt-4">Learn more</p>
+          </div>
+          <div className="bg-white w-2/6 p-6 rounded-3xl">
+            <h1 className="text-lg font-bold">Register</h1>
+            <div className="flex gap-32 p-2 mt-6">
+              <p className="text-gray-400">Level</p>
+              <p className="font-bold">Beginner friendly</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Date</p>
+              <p  className="font-bold">September 27, 2023</p>
+            </div>
+            <div className="flex gap-24 p-2">
+              <p className="text-gray-400">Seats left </p>
+              <p  className="font-bold">Almost Full!</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Price </p>
+              <p  className="font-bold">$299</p>
+            </div>
 
-                <div className=" duration-700 ease-in-out" data-carousel-item>
-                  <div className="block">
-                    <img
-                      src="https://framerusercontent.com/images/TVR3fuwqOuuUtOR0lFKneXTazEI.png"
-                      alt="Your Image"
-                      className="rounded-3xl"
-                    />
-                  </div>
-                </div>
+            <div className="flex justify-center  mt-14">
+              <button className="w-[70%] h-14 rounded-full bg-[#060318]  text-white">Register now</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                <div className=" duration-700 ease-in-out" data-carousel-item>
-                  <div className="absolute block w-2/4">
-                    <img
-                      src="https://framerusercontent.com/images/HXyZnYZnGUVLlC0cicTXzjxnN8.png"
-                      alt="Your Image"
-                      className="rounded-3xl"
-                    />
-                  </div>
-                </div>
-                <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-                  <button
-                    type="button"
-                    className="w-3 h-3 rounded-full"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                    data-carousel-slide-to="0"
-                  ></button>
-                  <button
-                    type="button"
-                    className="w-3 h-3 rounded-full"
-                    aria-current="false"
-                    aria-label="Slide 2"
-                    data-carousel-slide-to="1"
-                  ></button>
-                  <button
-                    type="button"
-                    className="w-3 h-3 rounded-full"
-                    aria-current="false"
-                    aria-label="Slide 3"
-                    data-carousel-slide-to="2"
-                  ></button>
-                </div>
 
-                <button
-                  type="button"
-                  className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                  data-carousel-prev
-                >
-                  <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg
-                      className="w-4 h-4 text-white dark:text-gray-800"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 6 10"
-                    >
-                      <path
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M5 1 1 5l4 4"
-                      />
-                    </svg>
-                    <span className="sr-only">Previous</span>
-                  </span>
-                </button>
-                <button
-                  type="button"
-                  className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                  data-carousel-next
-                >
-                  <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg
-                      className="w-4 h-4 text-white dark:text-gray-800"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 6 10"
-                    >
-                      <path
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="m1 9 4-4-4-4"
-                      />
-                    </svg>
-                    <span className="sr-only">Next</span>
-                  </span>
-                </button>
-              </div>
+      <div className="bg-gray-200 p-6 m-16 rounded-3xl">
+        <video
+          className="w-[98%] h-full object-cover object-center rounded-[50px] ml-2 p-6"
+          src="https://framerusercontent.com/modules/assets/gAFi084SAxoMgf5YxJe7diCZw~60b-6el-_Nvq4LL7Ekn-HvO5Qw5Dm5EWt7uCKVpv4n8.mp4"
+          loop
+          autoPlay
+          muted
+          playsInline
+        />
+        <div className="flex gap-20 text-black">
+          <div className="w-2/4 p-6 ml-10">
+            <button className="m-4 bg-[#1c5eff1a] text-[#1C5EFF] rounded-3xl w-28 h-8">Oct 25, 2023</button>
+            <h1 className="text-6xl">Beyond the Artboard</h1>
+            <h1 className="mt-4 mb-4">with DKNG Studio</h1>
+            <p>
+            Learn the steps Dan and Nathan took to build their business, tools for efficiently wearing many hats to operate a small studio, and the tools and techniques they use to create their signature illustration and design styles.
+            </p>
+            <p className="underline mt-4">Learn more</p>
+          </div>
+          <div className="bg-white w-2/6 p-6 rounded-3xl">
+            <h1 className="text-lg font-bold">Register</h1>
+            <div className="flex gap-32 p-2 mt-6">
+              <p className="text-gray-400">Level</p>
+              <p className="font-bold">Beginner friendly</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Date</p>
+              <p  className="font-bold">October 25, 2023</p>
+            </div>
+            <div className="flex gap-24 p-2">
+              <p className="text-gray-400">Seats left </p>
+              <p  className="font-bold">Almost Full!</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Price </p>
+              <p  className="font-bold">Starting at $199</p>
+            </div>
+
+            <div className="-rotate-6 h-12 text-center flex justify-center items-center mt-4 bg-yellow-300">
+              <p>Early birds ticket on sale now!</p>
+            </div>
+
+            <div className="flex justify-center  mt-14">
+              <button className="w-[70%] h-14 rounded-full bg-[#060318]  text-white">Register now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="bg-gray-200 p-6 m-16 rounded-3xl">
+        <video
+          className="w-[98%] h-full object-cover object-center rounded-[50px] ml-2 p-6"
+          src="https://framerusercontent.com/modules/assets/AaIR8Z4oDnfJ0jsp2OToCoqXGcc~BODZEGAovv-7C0_P0TrNX12g7xrDyoHMGclkW5d5NlQ.mp4"
+          loop
+          autoPlay
+          muted
+          playsInline
+        />
+        <div className="flex gap-20 text-black">
+          <div className="w-2/4 p-6 ml-10">
+            <button className="m-4 bg-[#1c5eff1a] text-[#1C5EFF] rounded-3xl w-28 h-8">Sep 27, 2023</button>
+            <h1 className="text-6xl">Brand Identify & Logo design</h1>
+            <h1 className="mt-4 mb-4">with Hoodzpah</h1>
+            <p>
+              Join Amy & Jennifer Hood, founders of Hoodzpah, for an immersive
+              and inspiring workshop on the essentials of effective branding and
+              client engagement.
+            </p>
+            <p className="underline mt-4">Learn more</p>
+          </div>
+          <div className="bg-white w-2/6 p-6 rounded-3xl">
+            <h1 className="text-lg font-bold">Register</h1>
+            <div className="flex gap-32 p-2 mt-6">
+              <p className="text-gray-400">Level</p>
+              <p className="font-bold">Beginner friendly</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Date</p>
+              <p  className="font-bold">September 27, 2023</p>
+            </div>
+            <div className="flex gap-24 p-2">
+              <p className="text-gray-400">Seats left </p>
+              <p  className="font-bold">Almost Full!</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Price </p>
+              <p  className="font-bold">$299</p>
+            </div>
+
+            <div className="flex justify-center  mt-14">
+              <button className="w-[70%] h-14 rounded-full bg-[#060318]  text-white">Register now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="bg-gray-200 p-6 m-16 rounded-3xl">
+        <video
+          className="w-[98%] h-full object-cover object-center rounded-[50px] ml-2 p-6"
+          src="https://framerusercontent.com/modules/assets/AaIR8Z4oDnfJ0jsp2OToCoqXGcc~BODZEGAovv-7C0_P0TrNX12g7xrDyoHMGclkW5d5NlQ.mp4"
+          loop
+          autoPlay
+          muted
+          playsInline
+        />
+        <div className="flex gap-20 text-black">
+          <div className="w-2/4 p-6 ml-10">
+            <button className="m-4 bg-[#1c5eff1a] text-[#1C5EFF] rounded-3xl w-28 h-8">Sep 27, 2023</button>
+            <h1 className="text-6xl">Brand Identify & Logo design</h1>
+            <h1 className="mt-4 mb-4">with Hoodzpah</h1>
+            <p>
+              Join Amy & Jennifer Hood, founders of Hoodzpah, for an immersive
+              and inspiring workshop on the essentials of effective branding and
+              client engagement.
+            </p>
+            <p className="underline mt-4">Learn more</p>
+          </div>
+          <div className="bg-white w-2/6 p-6 rounded-3xl">
+            <h1 className="text-lg font-bold">Register</h1>
+            <div className="flex gap-32 p-2 mt-6">
+              <p className="text-gray-400">Level</p>
+              <p className="font-bold">Beginner friendly</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Date</p>
+              <p  className="font-bold">September 27, 2023</p>
+            </div>
+            <div className="flex gap-24 p-2">
+              <p className="text-gray-400">Seats left </p>
+              <p  className="font-bold">Almost Full!</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Price </p>
+              <p  className="font-bold">$299</p>
+            </div>
+
+            <div className="flex justify-center  mt-14">
+              <button className="w-[70%] h-14 rounded-full bg-[#060318]  text-white">Register now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="bg-gray-200 p-6 m-16 rounded-3xl">
+        <video
+          className="w-[98%] h-full object-cover object-center rounded-[50px] ml-2 p-6"
+          src="https://framerusercontent.com/modules/assets/AaIR8Z4oDnfJ0jsp2OToCoqXGcc~BODZEGAovv-7C0_P0TrNX12g7xrDyoHMGclkW5d5NlQ.mp4"
+          loop
+          autoPlay
+          muted
+          playsInline
+        />
+        <div className="flex gap-20 text-black">
+          <div className="w-2/4 p-6 ml-10">
+            <button className="m-4 bg-[#1c5eff1a] text-[#1C5EFF] rounded-3xl w-28 h-8">Sep 27, 2023</button>
+            <h1 className="text-6xl">Brand Identify & Logo design</h1>
+            <h1 className="mt-4 mb-4">with Hoodzpah</h1>
+            <p>
+              Join Amy & Jennifer Hood, founders of Hoodzpah, for an immersive
+              and inspiring workshop on the essentials of effective branding and
+              client engagement.
+            </p>
+            <p className="underline mt-4">Learn more</p>
+          </div>
+          <div className="bg-white w-2/6 p-6 rounded-3xl">
+            <h1 className="text-lg font-bold">Register</h1>
+            <div className="flex gap-32 p-2 mt-6">
+              <p className="text-gray-400">Level</p>
+              <p className="font-bold">Beginner friendly</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Date</p>
+              <p  className="font-bold">September 27, 2023</p>
+            </div>
+            <div className="flex gap-24 p-2">
+              <p className="text-gray-400">Seats left </p>
+              <p  className="font-bold">Almost Full!</p>
+            </div>
+            <div className="flex gap-32 p-2">
+              <p className="text-gray-400">Price </p>
+              <p  className="font-bold">$299</p>
+            </div>
+
+            <div className="flex justify-center  mt-14">
+              <button className="w-[70%] h-14 rounded-full bg-[#060318]  text-white">Register now</button>
             </div>
           </div>
         </div>

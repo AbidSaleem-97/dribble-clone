@@ -3,6 +3,8 @@ import Main from "./Component/main/Main";
 import Sectionfive from "./Component/firstscreen/Sectionfive";
 import {Routes, Route } from "react-router-dom";
 import Sectionsix from "./Component/secondscreen/Sectionsix";
+import Sectionseven from "./Component/learn-design/Sectionseven";
+import Sectioneight from "./Component/jobs/Sectioneight";
 
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
       <Route path="/firstscreen" element={<Sectionfive />} exact />
 
       <Route path="/secondscreen" element={<Sectionsix />} exact />
+
+      <Route path="/learn-design" element={<Sectionseven />} exact />
+
+      <Route path="/jobs" element ={<Sectioneight />} exact />
 
       </Routes>
       

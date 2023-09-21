@@ -30,15 +30,43 @@ const Sectionsix= () => {
             <li className="border-2 w-24 text-center rounded-full">app design</li>
         </ul>
     </div>
-    <div>
-        
+
+    <div className="flex gap-10 m-10">
+
+         <div>
+         <button className="w-20 border rounded-lg" >Popular</button>
+        </div>
+        <div>
+            <ul className="flex gap-8 font-bold">
+                <li>Discover</li>
+                <li>Animation</li>
+                <li>Branding</li>
+                <li>Illustartion</li>
+                <li>Mobile</li>
+                <li>Print</li>
+                <li>Product Design</li>
+                <li>Typography</li>
+                <li>Web Design</li>
+
+            </ul>
+        </div>
+
     </div>
 
+    <div className="relative">
+        <img src="/images/card image.png" className="w-[33%] " />
+        <div>
+            <img src="https://cdn.dribbble.com/users/2554837/avatars/small/90522438af4feba5ef21fe54cc40fec4.png?1559397767" />
+            <p>Orizon: UI/UX Design Agency</p>
+            <p>TEAM</p>
+        </div>
+
+        
+    </div>
 
     <Footer />
     </>
     
   );
 };
-
 export default Sectionsix;
