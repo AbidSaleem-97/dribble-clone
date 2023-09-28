@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <div className="flex justify-between m-10 font-bold items-center text-center ">
         <div className="flex">
-          <div className="ml-10 mr-10">
+         <Link to="/"> <div className="ml-10 mr-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="76"
@@ -24,6 +24,7 @@ const Header = () => {
               ></path>
             </svg>
           </div>
+          </Link>
           <div>
             <ul className="flex gap-10">
 
@@ -40,6 +41,9 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/jobs"> Jobs</Link>
+              </li>
+              <li>
+                <Link to="/pro"> Go Pro</Link>
               </li>
             </ul>
           </div>

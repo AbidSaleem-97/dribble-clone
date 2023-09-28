@@ -66,7 +66,7 @@ const Footer = () => {
         <div>
             <ul className="flex gap-6">
                 <li>
-                    <a href="">@ 2023 Dribble. </a>
+                    <a href="">@ 2023 Dribbble. </a>
                 </li>
                 <li>
                     <a href=""> Terms </a>

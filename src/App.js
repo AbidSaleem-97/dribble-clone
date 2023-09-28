@@ -5,6 +5,7 @@ import {Routes, Route } from "react-router-dom";
 import Sectionsix from "./Component/secondscreen/Sectionsix";
 import Sectionseven from "./Component/learn-design/Sectionseven";
 import Sectioneight from "./Component/jobs/Sectioneight";
+import Sectionnine from "./Component/pro/Sectionnine";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Route path="/learn-design" element={<Sectionseven />} exact />
 
       <Route path="/jobs" element ={<Sectioneight />} exact />
+
+      <Route path="/pro" element ={<Sectionnine />} exact />
 
       </Routes>
       
